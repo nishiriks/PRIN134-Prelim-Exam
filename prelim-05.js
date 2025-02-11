@@ -11,12 +11,14 @@ function getDayMessage(day) {
         case "Thursday":
         case "Friday":
             message = "It's a weekday.";
+            break;
         case "Saturday":
         case "Sunday":
-            let message = "It's the weekend!";
+            message = "It's the weekend!";
             break;
-        default:
+        default:    
             message = "Invalid day.";
+            
     }
     return message;
 }

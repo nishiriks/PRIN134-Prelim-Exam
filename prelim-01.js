@@ -4,7 +4,8 @@
 // Your task is to find and fix the bugs so that it properly returns the expected greeting message.
 
 function greetUser(name, age) {
-    return "Hello, ${name}! You are ${age} years old.";
+
+    return `Hello, ${name}! You are ${age} years old.`;
 }
 
 // Test cases
